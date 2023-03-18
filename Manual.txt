@@ -41,3 +41,14 @@ with commit
 
 $ git revert <revision ID> --no-commit
 $ git revert <revision ID>
+
+
+Get the data from cloud repository
+
+$ git clone <code url>
+
+Update local to cloud repositroy
+
+$ git push origin main
+
+first time set user name and pwd.
