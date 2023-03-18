@@ -1,0 +1,43 @@
+Git commmands
+
+Config the user name in git
+$ git config --global user.name ='hidhayat'
+$ git config --global user.email = 'hidhayathullah.a@gmail.com'
+
+set the directory name for git reposetry
+
+$ git init 'folder path'
+
+Adding file name into git move the file to staging
+
+$ git add 'file name'
+
+Save the file in local git repositry
+
+$ git commint -m 'Justification message for this adding'
+
+To know the status 
+
+$ git status
+
+To revok the changes/restore the changes
+
+$ git restore 'file name'
+
+reset to previous version
+
+there are two type 
+1. hard reset 
+2. soft reset
+
+$ git reset --hard <revision id> #if you reset with hard reset lose the tracking with data
+$ git reset --soft<revision Id> or git reset <revision ID> # both of the comments are soft reset where tracking only lose data available
+
+Delete or revert to specific revision id: we can delete specific version from the version control system using below comment
+
+there are two option 
+with nocommit
+with commit
+
+$ git revert <revision ID> --no-commit
+$ git revert <revision ID>
