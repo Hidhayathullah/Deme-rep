@@ -52,3 +52,24 @@ Update local to cloud repositroy
 $ git push origin main
 
 first time set user name and pwd.
+
+Branching concept
+
+by default always master/ main will be there. this is like production
+
+two chech current branch
+
+$git branch
+
+creating two branches 
+1.develop
+2.qa
+
+$ git branch develop
+
+Swithed to new branch
+
+$git checkout <branchname>
+$git checkout develop
+
+
